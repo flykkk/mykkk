@@ -1,0 +1,20 @@
+<template name="70eea7d2">
+  <view class="_div data-v-b77570b4">
+    <view class="_div data-v-b77570b4 cu-custom" style=" {{('height:' + (CustomBar + 'px') + ';')}}">
+      <view class="_div data-v-b77570b4 cu-bar fixed bg-gradual-blue" style=" {{(  'height:' +  (CustomBar + 'px') +  ';' +  'padding-top:' +  (StatusBar + 'px') +  ';')}}">
+        <navigator class="_navigator data-v-b77570b4 action" open-type="navigateBack" delta="1" hover-class="none"><text class="_text data-v-b77570b4 icon-back"></text> 社会抚养费征收查询 </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-b77570b4">
+      <view class="_div data-v-b77570b4 cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg" style="height: 200px;">
+        <view class="_div data-v-b77570b4 cu-item" style="height: 40%">
+          <view class="_div data-v-b77570b4 content" hover-class="none"><text class="_text data-v-b77570b4 text-grey">身份证</text> <input type="text" class="_input data-v-b77570b4" /></view>
+        </view>
+        <view class="_div data-v-b77570b4 cu-item" style="height: 40%">
+          <view class="_div data-v-b77570b4 content" hover-class="none"><text class="_text data-v-b77570b4 text-grey">查询密码</text> <input type="text" class="_input data-v-b77570b4" /></view>
+        </view>
+        <view class="_div data-v-b77570b4 cu-item" style="height: 20%;text-align: center"><button class="_button data-v-b77570b4 cu-btn round bg-green shadow">查询</button> <button class="_button data-v-b77570b4 cu-btn round bg-green shadow">忘记密码</button></view>
+      </view>
+    </view>
+  </view>
+</template>

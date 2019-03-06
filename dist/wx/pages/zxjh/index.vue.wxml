@@ -1,0 +1,10 @@
+<template name="564964d1">
+  <view class="_div data-v-06e505e5">
+    <view class="_div data-v-06e505e5 cu-custom" style=" {{('height:' + (CustomBar + 'px') + ';')}}">
+      <view class="_div data-v-06e505e5 cu-bar fixed bg-gradual-blue" style=" {{(  'height:' +  (CustomBar + 'px') +  ';' +  'padding-top:' +  (StatusBar + 'px') +  ';')}}">
+        <navigator class="_navigator data-v-06e505e5 action" open-type="navigateBack" delta="1" hover-class="none"><text class="_text data-v-06e505e5 icon-back"></text> 在线咨询 </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-06e505e5"><button open-type="contact" bindcontact="handleContact" class="_button data-v-06e505e5">灌灌灌灌</button></view>
+  </view>
+</template>

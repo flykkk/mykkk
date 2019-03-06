@@ -1,0 +1,55 @@
+<template name="7084d7cb">
+  <view class="_div data-v-e34c6878">
+    <view class="_div data-v-e34c6878 cu-custom" style=" {{('height:' + (CustomBar + 'px') + ';')}}">
+      <view class="_div data-v-e34c6878 cu-bar fixed bg-gradual-blue" style=" {{(  'height:' +  (CustomBar + 'px') +  ';' +  'padding-top:' +  (StatusBar + 'px') +  ';')}}">
+        <navigator class="_navigator data-v-e34c6878 action" open-type="navigateBack" delta="1" hover-class="none"><text class="_text data-v-e34c6878 icon-back"></text> 信用档案 </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-e34c6878">
+      <view class="_div data-v-e34c6878 cu-bar bg-white solid-bottom margin-top">
+        <view class="_div data-v-e34c6878 action"></view>
+        <view class="_div data-v-e34c6878 action"></view>
+      </view>
+      <view class="_div data-v-e34c6878 cu-list grid col-3 no-border">
+        <view class="_div data-v-e34c6878 cu-item">
+          <view class="_div data-v-e34c6878 icon-writefill text-purple">
+            <view class="_div data-v-e34c6878 cu-tag badge"></view>
+          </view> <text class="_text data-v-e34c6878">案件登记</text>
+        </view>
+        <view class="_div data-v-e34c6878 cu-item">
+          <view class="_div data-v-e34c6878 icon-text text-purple">
+            <view class="_div data-v-e34c6878 cu-tag badge">
+              <block></block>
+            </view>
+          </view> <text class="_text data-v-e34c6878">案件审批</text>
+        </view>
+        <view class="_div data-v-e34c6878 cu-item">
+          <view class="_div data-v-e34c6878 icon-search text-purple">
+            <view class="_div data-v-e34c6878 cu-tag badge"></view>
+          </view> <text class="_text data-v-e34c6878">案件查询</text>
+        </view>
+        <view class="_div data-v-e34c6878 cu-item">
+          <view class="_div data-v-e34c6878 icon-search text-purple">
+            <view class="_div data-v-e34c6878 cu-tag badge">
+              <block>333</block>
+            </view>
+          </view> <text class="_text data-v-e34c6878">333</text>
+        </view>
+        <view class="_div data-v-e34c6878 cu-item">
+          <view class="_div data-v-e34c6878 icon-commandfill text-purple">
+            <view class="_div data-v-e34c6878 cu-tag badge">
+              <block>333</block>
+            </view>
+          </view> <text class="_text data-v-e34c6878">333</text>
+        </view>
+        <view class="_div data-v-e34c6878 cu-item">
+          <view class="_div data-v-e34c6878 icon-commandfill text-purple">
+            <view class="_div data-v-e34c6878 cu-tag badge">
+              <block>333</block>
+            </view>
+          </view> <text class="_text data-v-e34c6878">333</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

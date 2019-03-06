@@ -1,0 +1,22 @@
+<template name="9994e58e">
+  <view class="_div data-v-092309e0">
+    <view class="_div data-v-092309e0 cu-custom" style=" {{(  'height:' +  (200 + 'px') +  ';' +  'background:' +  ('url(' + imgurl + ')') +  ';')}}">
+      <view class="_div data-v-092309e0 cu-bar fixed" style=" {{(  'height:' +  (CustomBar + 'px') +  ';' +  'padding-top:' +  (StatusBar + 'px') +  ';')}}">
+        <navigator class="_navigator data-v-092309e0 action border-custom" open-type="navigateBack" delta="1" hover-class="none" style=" {{(  'width:' +  (Custom.width + 'px') +  ';' +  'height:' +  (Custom.height + 'px') +  ';')}}"><text class="_text data-v-092309e0 icon-back"></text> <text class="_text data-v-092309e0 icon-homefill"></text></navigator>
+        <view class="_div data-v-092309e0 content" style=" {{('top:' + (StatusBar + 'px') + ';')}}">社会抚养费征收</view>
+      </view>
+    </view>
+    <view class="_div data-v-092309e0 cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg" style="height: 200px;">
+      <view class="_div data-v-092309e0 cu-item arrow" style="height: 33%">
+        <navigator class="_navigator data-v-092309e0 content" url="../../shfyfzs/sb/main" hover-class="none"><text class="_text data-v-092309e0 icon-github text-grey"></text> <text class="_text data-v-092309e0 text-grey">社会抚养费申报</text></navigator>
+      </view>
+      <view class="_div data-v-092309e0 cu-item arrow" style="height: 33%">
+        <navigator class="_navigator data-v-092309e0 content" url="../jsq/main" hover-class="none"><text class="_text data-v-092309e0 icon-formfill text-green"></text> <text class="_text data-v-092309e0 text-grey">社会抚养费计算器</text></navigator>
+      </view>
+      <view class="_div data-v-092309e0 cu-item arrow" style="height: 33%">
+        <navigator class="_navigator data-v-092309e0 content" url="../cx/main" hover-class="none"><text class="_text data-v-092309e0 text-grey">社会抚养费征收结果查询</text></navigator>
+      </view>
+    </view>
+    <view class="_div data-v-092309e0"></view>
+  </view>
+</template>

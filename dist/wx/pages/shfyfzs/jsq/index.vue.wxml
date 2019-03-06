@@ -1,0 +1,10 @@
+<template name="0d8730ca">
+  <view class="_div data-v-675ab806">
+    <view class="_div data-v-675ab806 cu-custom" style=" {{('height:' + (CustomBar + 'px') + ';')}}">
+      <view class="_div data-v-675ab806 cu-bar fixed bg-gradual-blue" style=" {{(  'height:' +  (CustomBar + 'px') +  ';' +  'padding-top:' +  (StatusBar + 'px') +  ';')}}">
+        <navigator class="_navigator data-v-675ab806 action" open-type="navigateBack" delta="1" hover-class="none"><text class="_text data-v-675ab806 icon-back"></text> 社会抚养费征收 </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-675ab806"></view>
+  </view>
+</template>

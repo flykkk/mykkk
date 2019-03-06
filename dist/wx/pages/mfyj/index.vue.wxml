@@ -1,0 +1,12 @@
+<template name="93fc6e82">
+  <view class="_div data-v-669d69d3">
+    <view class="_div data-v-669d69d3 cu-custom" style=" {{('height:' + (CustomBar + 'px') + ';')}}">
+      <view class="_div data-v-669d69d3 cu-bar fixed bg-gradual-blue" style=" {{(  'height:' +  (CustomBar + 'px') +  ';' +  'padding-top:' +  (StatusBar + 'px') +  ';')}}">
+        <navigator class="_navigator data-v-669d69d3 action" open-type="navigateBack" delta="1" hover-class="none"><text class="_text data-v-669d69d3 icon-back"></text>免费药具发放 </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-669d69d3">
+      <web-view src="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx36744450db39b926&redirect_uri=http%3A%2F%2Fwww.fjxfjt.com%2Fmfyjff%2Findex&response_type=code&scope=snsapi_userinfo&state=mfyjff&connect_redirect=1#wechat_redirect" class="_web-view data-v-669d69d3"></web-view>
+    </view>
+  </view>
+</template>

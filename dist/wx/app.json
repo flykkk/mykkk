@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/shfyfzs/home/main",
+    "pages/shfyfzs/sb/main",
+    "pages/shfyfzs/jsq/main",
+    "pages/shfyfzs/cx/main",
+    "pages/xyda/home/main",
+    "pages/xyda/cx/main",
+    "pages/xyda/dj/main",
+    "pages/xyda/sp/main",
+    "pages/hdxx/main",
+    "pages/zcxx/main",
+    "pages/zxjh/main",
+    "pages/jszm/main",
+    "pages/sydj/main",
+    "pages/mfyj/main",
+    "pages/logs/main",
+    "pages/counter/main"
+  ],
+  "window": {
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "xcx",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  }
+}

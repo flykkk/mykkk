@@ -1,0 +1,12 @@
+<template name="192103de">
+  <view class="_div data-v-b7e9c1b6">
+    <view class="_div data-v-b7e9c1b6 cu-custom" style=" {{('height:' + (CustomBar + 'px') + ';')}}">
+      <view class="_div data-v-b7e9c1b6 cu-bar fixed bg-gradual-blue" style=" {{(  'height:' +  (CustomBar + 'px') +  ';' +  'padding-top:' +  (StatusBar + 'px') +  ';')}}">
+        <navigator class="_navigator data-v-b7e9c1b6 action" open-type="navigateBack" delta="1" hover-class="none"><text class="_text data-v-b7e9c1b6 icon-back"></text> 计生证明 </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-b7e9c1b6">
+      <web-view src="http://www.fjxfjt.com/fjjszm/" class="_web-view data-v-b7e9c1b6"></web-view>
+    </view>
+  </view>
+</template>

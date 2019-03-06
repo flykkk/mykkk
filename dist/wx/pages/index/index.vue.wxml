@@ -1,0 +1,53 @@
+<template name="9843490e">
+  <view class="_div data-v-5201665f">
+    <view class="_div data-v-5201665f">
+      <image src="/static/images/bg8.jpg" mode="widthFix" class="_img data-v-5201665f png" style="width:100%;height:460rpx"></image>
+    </view>
+    <view class="_ul data-v-5201665f mainmenu">
+      <view class="_li data-v-5201665f">
+        <navigator url="../jszm/main" class="_a data-v-5201665f">
+          <view class="_b data-v-5201665f">计划生育证明</view>
+        </navigator>
+      </view>
+      <view class="_li data-v-5201665f">
+        <navigator url="../shfyfzs/home/main" class="_a data-v-5201665f">
+          <view class="_b data-v-5201665f">社会抚养费征收</view>
+        </navigator>
+      </view>
+      <view class="_li data-v-5201665f">
+        <navigator url="../sydj/main" class="_a data-v-5201665f">
+          <view class="_b data-v-5201665f">生育登记</view>
+        </navigator>
+      </view>
+      <view class="_li data-v-5201665f">
+        <navigator url="../mfyj/main" class="_a data-v-5201665f">
+          <view class="_b data-v-5201665f">避孕药具发放</view>
+        </navigator>
+      </view>
+      <view class="_li data-v-5201665f">
+        <navigator url="../xyda/home/main" class="_a data-v-5201665f">
+          <view class="_b data-v-5201665f">信用档案</view>
+        </navigator>
+      </view>
+      <view class="_li data-v-5201665f">
+        <navigator url="../zxjh/main" class="_a data-v-5201665f">
+          <view class="_b data-v-5201665f">在线咨询</view>
+        </navigator>
+      </view>
+      <view class="_li data-v-5201665f">
+        <navigator url="../hdxx/main" class="_a data-v-5201665f">
+          <view class="_b data-v-5201665f">活动信息</view>
+        </navigator>
+      </view>
+      <view class="_li data-v-5201665f">
+        <navigator url="../zcxx/main" class="_a data-v-5201665f">
+          <view class="_b data-v-5201665f">政策信息</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-5201665f copyright">
+      <view class="_br data-v-5201665f"></view>
+      <view class="_br data-v-5201665f"></view>厦门市纵达科技有限公司® 版权所有©
+    </view>
+  </view>
+</template>

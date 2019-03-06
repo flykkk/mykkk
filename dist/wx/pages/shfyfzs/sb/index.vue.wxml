@@ -1,0 +1,114 @@
+<template name="54d88da9">
+  <view class="_div data-v-c9b1ee60">
+    <view class="_div data-v-c9b1ee60 cu-custom" style=" {{('height:' + (CustomBar + 'px') + ';')}}">
+      <view class="_div data-v-c9b1ee60 cu-bar fixed bg-gradual-blue" style=" {{(  'height:' +  (CustomBar + 'px') +  ';' +  'padding-top:' +  (StatusBar + 'px') +  ';')}}">
+        <navigator class="_navigator data-v-c9b1ee60 action" open-type="navigateBack" delta="1" hover-class="none"><text class="_text data-v-c9b1ee60 icon-back"></text> 社会抚养费申报 </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-c9b1ee60">
+      <form class="_form data-v-c9b1ee60">
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">姓名</view> <input placeholder="请输入姓名" class="_input data-v-c9b1ee60 radius" name="input" />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">现有男孩数</view> <input placeholder="请输入现有男孩数" type="number" class="_input data-v-c9b1ee60 radius" name="input" />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">现有女孩数</view> <input placeholder="请输入现有女孩数" type="number" class="_input data-v-c9b1ee60 radius" name="input" />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">生育情况</view> <input placeholder="请输入姓名" class="_input data-v-c9b1ee60 radius" name="input" />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">出生年月</view>
+          <picker mode="date" start="2015-09-01" end="2020-09-01" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_picker data-v-c9b1ee60">
+            <view class="_div data-v-c9b1ee60 picker"> hh {{bir}}
+            </view>
+          </picker>
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group margin-top">
+          <view class="_div data-v-c9b1ee60 title">邮件</view> <input placeholder="两字短标题" class="_input data-v-c9b1ee60 radius" name="input" />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">输入框</view> <input placeholder="三字标题" class="_input data-v-c9b1ee60 radius" name="input" />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">收货地址</view> <input placeholder="统一标题的宽度" class="_input data-v-c9b1ee60 radius" name="input" />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">收货地址</view> <input placeholder="输入框带个图标" class="_input data-v-c9b1ee60 radius" name="input" /> <text class="_text data-v-c9b1ee60 icon-locationfill text-orange"></text>
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">验证码</view> <input placeholder="输入框带个按钮" class="_input data-v-c9b1ee60 radius" name="input" /> <button class="_button data-v-c9b1ee60 cu-btn bg-green shadow">验证码</button>
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">手机号码</view> <input placeholder="输入框带标签" class="_input data-v-c9b1ee60 radius" name="input" />
+          <view class="_div data-v-c9b1ee60 cu-capsule radius">
+            <view class="_div data-v-c9b1ee60 cu-tag bg-blue "> +86 </view>
+            <view class="_div data-v-c9b1ee60 cu-tag line-blue"> 中国大陆 </view>
+          </view>
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group margin-top">
+          <view class="_div data-v-c9b1ee60 title">普通选择</view>
+          <picker bindchange="handleProxy" value="index" range="{{addrs}}" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_picker data-v-c9b1ee60">
+            <view class="_div data-v-c9b1ee60 picker"><input class="_input data-v-c9b1ee60 value" placeholder="请选择" value="{{d.addr}}" bindinput="handleProxy" disabled="disabled" data-eventid="{{'1'}}" data-comkey="{{$k}}" /></view>
+          </picker>
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group margin-top">
+          <view class="_div data-v-c9b1ee60 title">开关选择</view>
+          <switch class="_switch data-v-c9b1ee60" />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">定义颜色</view>
+          <switch class="_switch data-v-c9b1ee60 red sm" checked />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <switch class="_switch data-v-c9b1ee60 switch-sex" checked />
+          <view class="_div data-v-c9b1ee60 title">定义图标</view>
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">方形开关</view>
+          <switch class="_switch data-v-c9b1ee60 orange radius sm" checked />
+        </view>
+        <radio-group class="_radio-group data-v-c9b1ee60 block">
+          <view class="_div data-v-c9b1ee60 cu-form-group margin-top">
+            <view class="_div data-v-c9b1ee60 title">单选操作(radio)</view>
+            <radio checked class="_radio data-v-c9b1ee60" />
+          </view>
+          <view class="_div data-v-c9b1ee60 cu-form-group">
+            <view class="_div data-v-c9b1ee60 title">定义样式</view>
+            <radio class="_radio data-v-c9b1ee60 radio" />
+          </view>
+          <view class="_div data-v-c9b1ee60 cu-form-group">
+            <view class="_div data-v-c9b1ee60 title">定义颜色</view>
+            <view class="_div data-v-c9b1ee60">
+              <radio class="_radio data-v-c9b1ee60 blue radio" />
+              <radio class="_radio data-v-c9b1ee60 red margin-left-sm" />
+            </view>
+          </view>
+        </radio-group>
+        <view class="_div data-v-c9b1ee60 cu-form-group margin-top">
+          <view class="_div data-v-c9b1ee60 title">复选选操作(checkbox)</view>
+          <checkbox class="_checkbox data-v-c9b1ee60" />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">定义形状</view>
+          <checkbox class="_checkbox data-v-c9b1ee60 round" checked />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group">
+          <view class="_div data-v-c9b1ee60 title">定义颜色</view>
+          <checkbox class="_checkbox data-v-c9b1ee60 round blue" checked />
+        </view>
+        <view class="_div data-v-c9b1ee60 cu-form-group margin-top">
+          <view class="_div data-v-c9b1ee60 grid col-3 grid-square flex-sub">
+            <view class="_div data-v-c9b1ee60 padding-xs bg-img" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></view>
+            <view class="_div data-v-c9b1ee60 padding-xs bg-img" style="background-image:url(https://image.weilanwl.com/img/square-2.jpg);">
+              <view class="_div data-v-c9b1ee60 cu-tag bg-red"><text class="_text data-v-c9b1ee60 icon-close"></text></view>
+            </view>
+            <view class="_div data-v-c9b1ee60 padding-xs solids"><text class="_text data-v-c9b1ee60 icon-cameraadd"></text></view>
+          </view>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

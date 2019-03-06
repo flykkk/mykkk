@@ -1,0 +1,10 @@
+<template name="7f8c137e">
+  <view class="_div data-v-3027b492">
+    <view class="_div data-v-3027b492 cu-custom" style=" {{('height:' + (CustomBar + 'px') + ';')}}">
+      <view class="_div data-v-3027b492 cu-bar fixed bg-gradual-blue" style=" {{(  'height:' +  (CustomBar + 'px') +  ';' +  'padding-top:' +  (StatusBar + 'px') +  ';')}}">
+        <navigator class="_navigator data-v-3027b492 action" open-type="navigateBack" delta="1" hover-class="none"><text class="_text data-v-3027b492 icon-back"></text> 政策信息 </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-3027b492"></view>
+  </view>
+</template>

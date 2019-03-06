@@ -1,0 +1,55 @@
+<template name="5cde7324">
+  <view class="_div data-v-7ad107c6">
+    <view class="_div data-v-7ad107c6 cu-custom" style=" {{('height:' + (CustomBar + 'px') + ';')}}">
+      <view class="_div data-v-7ad107c6 cu-bar fixed bg-gradual-blue" style=" {{(  'height:' +  (CustomBar + 'px') +  ';' +  'padding-top:' +  (StatusBar + 'px') +  ';')}}">
+        <navigator class="_navigator data-v-7ad107c6 action" open-type="navigateBack" delta="1" hover-class="none"><text class="_text data-v-7ad107c6 icon-back"></text> 信用档案 </navigator>
+      </view>
+    </view>
+    <view class="_div data-v-7ad107c6">
+      <view class="_div data-v-7ad107c6 cu-bar bg-white solid-bottom margin-top">
+        <view class="_div data-v-7ad107c6 action"></view>
+        <view class="_div data-v-7ad107c6 action"></view>
+      </view>
+      <view class="_div data-v-7ad107c6 cu-list grid col-3 no-border">
+        <navigator class="_navigator data-v-7ad107c6 cu-item" url="../dj/main" hover-class="none">
+          <view class="_div data-v-7ad107c6 icon-writefill text-purple">
+            <view class="_div data-v-7ad107c6 cu-tag badge"></view>
+          </view> <text class="_text data-v-7ad107c6">案件登记</text>
+        </navigator>
+        <navigator class="_navigator data-v-7ad107c6 cu-item" url="../sp/main" hover-class="none">
+          <view class="_div data-v-7ad107c6 icon-text text-purple">
+            <view class="_div data-v-7ad107c6 cu-tag badge">
+              <block></block>
+            </view>
+          </view> <text class="_text data-v-7ad107c6">案件审批</text>
+        </navigator>
+        <navigator class="_navigator data-v-7ad107c6 cu-item" url="../cx/main" hover-class="none">
+          <view class="_div data-v-7ad107c6 icon-search text-purple">
+            <view class="_div data-v-7ad107c6 cu-tag badge"></view>
+          </view> <text class="_text data-v-7ad107c6">案件查询</text>
+        </navigator>
+        <view class="_div data-v-7ad107c6 cu-item">
+          <view class="_div data-v-7ad107c6 icon-search text-purple">
+            <view class="_div data-v-7ad107c6 cu-tag badge">
+              <block>333</block>
+            </view>
+          </view> <text class="_text data-v-7ad107c6">333</text>
+        </view>
+        <view class="_div data-v-7ad107c6 cu-item">
+          <view class="_div data-v-7ad107c6 icon-commandfill text-purple">
+            <view class="_div data-v-7ad107c6 cu-tag badge">
+              <block>333</block>
+            </view>
+          </view> <text class="_text data-v-7ad107c6">333</text>
+        </view>
+        <view class="_div data-v-7ad107c6 cu-item">
+          <view class="_div data-v-7ad107c6 icon-commandfill text-purple">
+            <view class="_div data-v-7ad107c6 cu-tag badge">
+              <block>333</block>
+            </view>
+          </view> <text class="_text data-v-7ad107c6">333</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>
